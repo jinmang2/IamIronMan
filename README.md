@@ -8,6 +8,8 @@
 - Preprocessing
   - `py-hanshell`
   - `chatspace`
+    - 현재 제공하지 않는 library
+    - 따로 개발하여 대체할 예정
   - stopwords, 한국어 이외 문자 제거
 - Labeling
   - `SentimentLDA`
@@ -15,6 +17,14 @@
   - CBOW
 - Modeling
   - `Gaussian Naive Bayse`
+- Dependencies
+  - numpy
+  - scikit-learn
+  - torch 1.7.1-cu101
+  - transformers 2.5.1
+  - flask
+  - tensorflow
+  - konlpy
 
 ## To be continued...
 - JST + KorBERT + WAEs(Wasserstein AutoEncoder) + Sentiment Dictionary + System Link on website
